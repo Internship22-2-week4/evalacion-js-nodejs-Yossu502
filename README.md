@@ -47,7 +47,22 @@ Solucion del proyecto:
 
 Entregable: 
   1. Diagrama de clases de la solucion. (5 pts)
+### Solucion diagrama 
+![](./SerieII/assets/diagrama.png)
+
   2. Codigo fuente de la solucion.
   3. Documentacion de la API con swagger. (10 pts)
-  4. Captura de pantalla de cada historia de usuario. 
+  4. Captura de pantalla de cada historia de usuario.
+
+### Usuarios
+
+![FOto](./SerieII/assets/usuarios.png)
+
+### Albums
+
+![Foto](./SerieII/assets/albums.png)
+
+### Autenticacion
+
+![Foto](./SerieII/assets/auth.png)
 
