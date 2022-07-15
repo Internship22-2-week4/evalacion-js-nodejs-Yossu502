@@ -13,7 +13,6 @@ class AlbumRouter {
 
   handlePostPlayList (req, res) {
     const album = req.body
-    console.log(album);
     const result = this._ctrl.createNewAlbum(album)
     this._response.succes(req, res, result, this._httpcode.CREATED)
   }

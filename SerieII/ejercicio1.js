@@ -15,22 +15,19 @@ function changeName(indexList, name) {
 
 }
 
-let nameList = ['file', 'file(1)', 'icon', 'icon(1)', 'icon(1)']
+let nameList = ['photo', 'postcard', 'photo', 'photo', 'video']
 let index = []
 let newList = []
 
 while (nameList.length > 0) {
   let nameVerify = nameList.shift()
   let position = nameList.indexOf(nameVerify)
-  console.log(nameVerify)
-  console.log(position);
   if (position != -1) {
     while (position != -1){
       nameList.splice(position, 1)
       index.push(position)
       position = nameList.indexOf(nameVerify)
     }
-    console.log(index);
     changeName(index, nameVerify)
   }else{
     newList.push(nameVerify)

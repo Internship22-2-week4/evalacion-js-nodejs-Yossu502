@@ -4,7 +4,6 @@ function changeMoney(money) {
 
   while (money > 0) {
     for (let i = coins.length - 1; i > -1; i--) {
-      console.log(coins[i])
       if (coins[i] <= money) {
         money -= coins[i]
         arrayback.splice(i, 1, arrayback[i]+1)
